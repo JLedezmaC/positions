@@ -1,0 +1,95 @@
+/* Ejemplo 1 */
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.header{
+    background-color: tomato;
+    height: 100px ;
+}
+
+#top{
+    background-color: yellow;
+    float: left;
+    width: 250px;
+    height: 500px;
+    position: relative;
+}
+
+#bottom{
+    background-color: pink;
+    float: left;
+    width: 250px;
+    height: 500px;
+    position: relative ;
+}
+
+
+#right{
+    background-color: darkblue;
+    float: left;
+    width: 250px;
+    height: 500px;
+    color: white;
+    position: relative ;
+}
+
+
+#left{
+    background-color: rgb(10, 156, 10);
+    float: left;
+    width: 250px;
+    height: 500px;
+    position: relative;
+}
+
+#rice{
+    background-color: blue;
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+#beans{
+    background-color:rgb(75, 68, 68);
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+#fotter{
+    background-color: tomato;
+    height: 50px;
+    width: 1000px;
+}
+
+.elem-position{
+    position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.elem-position1{
+    position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.elem-position2{
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.elem-position3{
+    position: absolute;
+	bottom: 0;
+	left: 0;
+}
